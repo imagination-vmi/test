@@ -1,12 +1,15 @@
 # Base blog settings
-blog:
-  title                      : Imagination
-  description                  : Recherche en neuroscience pour l'imagerie mentale visuelle
-
 baseurl                      : ""  #"/dactl/" # the subpath of your site,         # e.g. /blog/ could add more blog in the same domaine name; one domaine correspond to one blog
                               # set to '' in case of hosting on GitHub
-url                          : "http://jianghaolouis.github.io" # the base hostname & protocol for your site
+url                          : "" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
+
+blog:
+  title                      : Imagination
+  description                : >
+                              Recherche en neuroscience pour l'imagerie mentale visuelle
+
+
 
 # Layout configuration
   logo_path                  : "assets/img/dactl.svg" # path to logo file
